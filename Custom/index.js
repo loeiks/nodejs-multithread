@@ -64,4 +64,4 @@ async function benchmark(range = 1e9, numCPUs = os.cpus().length) {
 }
 
 // Testing with i5 13600K in Full Performance Mode
-benchmark(1e10, 20);
+benchmark(1e9, 20);
